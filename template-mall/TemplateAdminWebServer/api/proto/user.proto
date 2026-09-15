@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+package templateorder.v1;
+
+option go_package = "template-mall/TemplateAdminWebServer/api/gen/templateorder/v1;templateorderv1";
+
+import "models.proto";
+
+message UpsertUserRequest {
+  string user_id = 1;
+  string nickname = 2;
+}
+
+message UpsertUserResponse {
+  User user = 1;
+}
+
+message GetUserRequest {
+  string user_id = 1;
+}
+
+message GetUserResponse {
+  User user = 1;
+}
+
+message SetMembershipRequest {
+  string user_id = 1;
+  bool is_member = 2;
+}
+
+message SetMembershipResponse {
+  User user = 1;
+}
+
+// plan: month | quarter | year
+message SubscribeMembershipRequest {
+  string user_id = 1;
+  string plan = 2;
+}
+
+message SubscribeMembershipResponse {
+  Order order = 1;
+  PaymentInfo payment = 2;
+}

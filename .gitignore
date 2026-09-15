@@ -1,0 +1,14 @@
+# 依赖与构建产物
+node_modules/
+dist/
+# 编译产物
+*.exe
+*.exe~
+~$*
+Deployments/.local-bin/
+# 运行日志
+*.log
+*.log.err
+Deployments/.local-logs/
+# 其他
+.DS_Store

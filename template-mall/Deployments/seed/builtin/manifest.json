@@ -1,0 +1,38 @@
+[
+  {
+    "file": "files/xiaqingxin-yaoqinghan.docx",
+    "cover": "covers/xiaqingxin-yaoqinghan.png",
+    "name": "小清新邀请函",
+    "type": "docx",
+    "price": 0,
+    "price_type": "free",
+    "ctype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  {
+    "file": "files/gongzuo-jihuabiao.xlsx",
+    "cover": "covers/gongzuo-jihuabiao.png",
+    "name": "工作计划表",
+    "type": "xlsx",
+    "price": 0,
+    "price_type": "free",
+    "ctype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  },
+  {
+    "file": "files/kangxi-hudiewen.pptx",
+    "cover": "covers/kangxi-hudiewen.png",
+    "name": "中国风康熙五彩蝴蝶纹",
+    "type": "pptx",
+    "price": 199,
+    "price_type": "paid",
+    "ctype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  },
+  {
+    "file": "files/mayi-demimi.pdf",
+    "cover": "covers/mayi-demimi.png",
+    "name": "蚂蚁的秘密",
+    "type": "pdf",
+    "price": 99,
+    "price_type": "paid",
+    "ctype": "application/pdf"
+  }
+]

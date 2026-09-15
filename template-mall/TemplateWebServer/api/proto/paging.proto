@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package templateorder.v1;
+
+option go_package = "template-mall/TemplateWebServer/api/gen/templateorder/v1;templateorderv1";
+
+message PageRequest {
+  int32 page = 1;
+  int32 page_size = 2;
+}
+
+message PageInfo {
+  int32 page = 1;
+  int32 page_size = 2;
+  int64 total = 3;
+}
